@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Accio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apna_College/Apna_College.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA__JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/GFG.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Patterns/Patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accio/src/Module_1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apna_College/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apna_College/src/functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apna_College/src/functions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
