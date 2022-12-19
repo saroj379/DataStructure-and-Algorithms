@@ -48,6 +48,45 @@ class StackUsingLinkedlist {
 }
 
 
+class Queue {
+    Node top;
+    //Write your code here
+    public void push(int value) {
+        Node newNode = new Node(value);
+        if(top == null){
+            top = newNode;
+            return;
+        }
+        Node curr = top;
+        while(curr.link != null){
+            curr = curr.link;
+        }
+        curr.link = newNode;
+    }
+
+    public int pop() {
+        if(top == null) return -1;
+        int frontVal = top.data;
+        top = top.link;
+        return frontVal;
+    }
+
+    public int front() {
+        if(top == null) return -1;
+        return top.data;
+    }
+
+    public int getSize() {
+        int c = 0;
+        Node curr = top;
+        while(curr != null){
+            c++;
+            curr = curr.link;
+        }
+        return c;
+    }
+}
+
 public class stack_Queue_LinkedList {
     public static void main(String[] args) {
         StackUsingLinkedlist sql = new StackUsingLinkedlist();
