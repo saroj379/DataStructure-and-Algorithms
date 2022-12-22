@@ -12,9 +12,6 @@ class ArrayRev{
         }
         //return the sum of the array
         return arr[index] + sumOfArray(arr,index+1);
-
-        // reverse the array by recursion(calling itself)
-//        System.out.print(arr[index]+" ");
     }
 
 
