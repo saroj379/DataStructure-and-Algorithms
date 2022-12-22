@@ -1,6 +1,7 @@
 /*
 CONTEXT:-(All the problems are in diction sequence) like A,B,C,...
 for your reference
+Total Problems :- 19
 */
 
 package Arrays;
