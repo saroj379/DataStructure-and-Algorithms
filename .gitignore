@@ -34,3 +34,4 @@ bin/
 /.idea
 /.iml
 DSA__JAVA/src/.gitignore
+/.idea/workspace.xml

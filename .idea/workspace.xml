@@ -4,6 +4,7 @@
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/src/Module_1/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_1/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accio/src/Module_3/stack_Queue_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_3/stack_Queue_LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

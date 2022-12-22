@@ -5,15 +5,30 @@ import java.io.*;
 import java.util.ArrayList;
 
 class ArrayRev{
-    public int arrayRev(int[] arr, int index){
+    //Sum of elements in array using Recursion
+    public int sumOfArray(int[] arr, int index){
         if(arr.length == index){
             return 0;
         }
         //return the sum of the array
-        return arr[index] + arrayRev(arr,index+1);
+        return arr[index] + sumOfArray(arr,index+1);
 
         // reverse the array by recursion(calling itself)
 //        System.out.print(arr[index]+" ");
+    }
+
+
+    //Reversing array using recursion(calling itself)
+    public void arrayRev(int[] arr, int index){
+        if(arr.length == index){
+            return;
+        }
+        //return the sum of the array
+//        return arr[index] + arrayRev(arr,index+1);
+
+        // reverse the array by recursion(calling itself)
+        arrayRev(arr, index+1);
+        System.out.print(arr[index]+" ");
     }
 }
 
@@ -68,7 +83,9 @@ public class Array {
         //called the reverse function
         ArrayRev rev = new ArrayRev();
         System.out.println(Arrays.toString(arr));
-        System.out.println(rev.arrayRev(arr,0));
+
+        System.out.println(rev.sumOfArray(arr, 0));
+        rev.arrayRev(arr,0);
         System.out.println();
 
         //obj of class solution
