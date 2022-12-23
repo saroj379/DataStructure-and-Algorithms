@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/GFG/src/gfg_Linkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/src/gfg_arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/src/Arrays/gfg_arrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/untitled/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/src/gfg_Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/src/gfg_Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/src/gfg_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/src/gfg_arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

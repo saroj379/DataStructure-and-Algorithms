@@ -3,6 +3,7 @@ LinkedList of geeks for geeks (as diction sequence)
 Totall Problem :- 3
 */
 
+//Node class for a single node while create...
 class Node{
     int data;
     Node next;

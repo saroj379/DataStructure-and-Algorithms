@@ -1,12 +1,13 @@
 /*
 CONTEXT:-(All the problems are in diction sequence) like A,B,C,...
 for your reference
-Total Problems :- 19
+Total Problems :- 22
 */
 
-package Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 class gfg_arrays {
 
@@ -31,6 +32,31 @@ class gfg_arrays {
             arr[i] = arr[i-1];
         }
         arr[0] = x;
+    }
+
+
+    //Find duplicates in an array(this is not optimised 1 but we can ans in this way if asked in interview)
+    //And it almost passes (304/350)
+    public static ArrayList<Integer> duplicates(int arr[], int n) {
+        ArrayList<Integer> al = new ArrayList<>();
+        boolean flag = true;
+        for(int i=0; i<n-1; i++){
+            if(!al.contains(arr[i])){
+                for(int j=i+1; j<n; j++){
+                    if(arr[i] == arr[j]){
+                        flag = false;
+                        al.add(arr[i]);
+                        break;
+                    }
+
+                }
+            }
+        }
+        Collections.sort(al);
+        if(flag){
+            al.add(-1);
+        }
+        return al;
     }
 
 
@@ -107,6 +133,42 @@ class gfg_arrays {
             }
         }
         return idx;
+    }
+
+
+    //Leader elements in an array
+    static ArrayList<Integer> leaders(int arr[], int n){
+        ArrayList<Integer> al = new ArrayList<>();
+        ArrayList<Integer> al1 = new ArrayList<>();
+        int index=0, high=0;
+        for(int i=n-1; i>=0;i--){
+            if(arr[i] >= high){
+                high = arr[i];
+                al.add(index, arr[i]);
+                index++;
+            }
+        }
+        //reverse the arraylist
+        for(int i=0; i<al.size(); i++){
+            al1.add(i, al.get(al.size()-1-i));
+        }
+        return al1;
+    }
+
+
+    //Maximum Product Subarray
+    long maxProduct(int[] arr, int n) {
+        long max = Integer.MIN_VALUE;
+        for(int i=0; i<n; i++){
+            long mul = 1;
+            for(int j=i; j<n; j++){
+                mul *= arr[j];
+                if(mul > max){
+                    max = mul;
+                }
+            }
+        }
+        return max;
     }
 
 
