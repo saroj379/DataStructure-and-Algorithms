@@ -36,6 +36,47 @@ class solution{
     }
 
 
+    // Rotten Orange
+    public static int orangesRotting(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int fresh=0;
+        Queue<int[]> q = new LinkedList<>();
+        for(int i=0; i< rows; i++){
+            for(int j=0; j<cols; j++){
+                if(grid[i][j] == 1) fresh++;
+                else if(grid[i][j] == 2) q.add(new int[]{i,j});
+            }
+        }
+        if(fresh == 0) return 0;
+
+        int[][] dirs = {{1,0},{0,1},{-1,0},{0,-1}};
+        int time =0;
+        while(q.size() > 0){
+            int size = q.size();
+            for(int i=0; i<size; i++){
+                int[] indicies = q.remove();
+                int r = indicies[0];
+                int c = indicies[1];
+
+                for(int j=0; j<4; j++){
+                    int nr = r + dirs[j][0];
+                    int nc = c + dirs[j][1];
+                    if(nr >=0 && nc>=0 && nr<rows && nc<cols && grid[nr][nc] == 1){
+                        fresh --;
+                        grid[nr][nc] = 2;
+                        q.add(new int[]{nr,nc});
+                    }
+                }
+            }
+            time++;
+        }
+
+        if(fresh == 0) return time-1;
+        return -1;
+    }
+
+
     // Sliding Window
     public int[] nextGreaterElementIndex(int[] arr){
         int n = arr.length;
