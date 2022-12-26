@@ -51,6 +51,69 @@ class Hashmap{
         }
         if(found == false) System.out.print(-1);
     }
+
+
+    // Pair Sum divisible by K
+    public int sumDivbyK(int[] arr, int n, int k){
+        Map <Integer, Integer> hm = new HashMap<>();
+        int cnt = 0;
+        for(int i=0; i<n; i++){
+            int rem = arr[i]%k;
+            if(rem == 0){
+                int val = hm.getOrDefault(rem, 0);
+                cnt += val;
+            }
+            else{
+                int val = hm.getOrDefault((k-rem), 0);
+                cnt += val;
+            }
+            int oldVal = hm.getOrDefault(rem, 0);
+            hm.put(rem, oldVal + 1);
+        }
+        return cnt;
+    }
+
+
+    // Problem with Given difference
+    public int givenDifference(int []A, int n, int B) {
+        Map<Integer, Integer> hm = new HashMap<>();
+        for(int i=0; i<n; i++){
+            if(hm.containsKey(A[i] + B) || hm.containsKey(A[i] - B)){
+                return 1;
+            }
+//            if(hm.containsKey(A[i])){
+//                int oldVal = hm.get(A[i]);
+//                hm.put(A[i], oldVal+1);
+//            }
+//            else hm.put(A[i], 1);
+
+            // We can write this 2lines of code except the above if-else statement
+            int oldVal = hm.getOrDefault(A[i], 0);
+            hm.put(A[i], oldVal+1);
+        }
+        return 0;
+    }
+
+
+    // Valid Anagram
+    static boolean areAnagram(String c1, String c2) {
+        c1 = c1.toLowerCase();
+        c2 = c2.toLowerCase();
+        int[] arr1 = new int[26];
+        int[] arr2 = new int[26];
+        if(c1.length() != c2.length()){
+            return false;
+        }
+        for(int i=0; i<c1.length() ; i++){
+            arr1[c1.charAt(i)-'a'] ++;
+            arr2[c2.charAt(i)-'a'] ++;
+        }
+
+        for(int i=0; i<26; i++){
+            if(arr1[i] != arr2[i]) return false;
+        }
+        return true;
+    }
 }
 
 
