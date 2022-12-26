@@ -52,6 +52,27 @@ class Hashmap{
     }
 
 
+    // Largest subarray 0 sum
+    public int maxLen(int arr[])
+    {
+        int n = arr.length;
+        int maxLen = 0;
+        Map<Integer, Integer> hm = new HashMap<>();
+        hm.put(0, -1); // Initialization
+        int sum = 0;
+        for(int i=0; i<n; i++){
+            sum += arr[i];
+            // check for sum in hm
+            if(hm.containsKey(sum)){
+                int len = i - hm.get(sum);
+                maxLen = Math.max(len, maxLen);
+            }
+            else hm.put(sum, i);
+        }
+        return maxLen;
+    }
+
+
     // Missing elements
     static void missingNumbers(int n, int arr[], int m, int brr[]) {
         int[] cnt1 = new int[10001];
