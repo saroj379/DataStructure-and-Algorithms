@@ -3,6 +3,24 @@ package Module_3;
 import java.util.*;
 
 class Hashmap{
+
+    // Equilibrim Index
+    static int findEquilibriumIndex(int[] a) {
+        int n = a.length;
+        int totalSum =0;
+        for(int i=0; i<n; i++) totalSum += a[i];
+
+        int leftSum =0;
+        for(int i=0; i<n; i++){
+            int rightSum = totalSum - leftSum - a[i];
+            if(leftSum == rightSum) return i;
+            leftSum += a[i];
+        }
+        return -1;
+    }
+
+
+    // First element occurs K times
     // 1st approach
     public void firstElementToOccurKTimes(int[] nums, int n, int k) {
         int[] cnt = new int[1000001];
@@ -69,6 +87,8 @@ class Hashmap{
             }
             int oldVal = hm.getOrDefault(rem, 0);
             hm.put(rem, oldVal + 1);
+            // to see how its look after pushing, do uncomment and see
+            // System.out.println(hm);
         }
         return cnt;
     }
