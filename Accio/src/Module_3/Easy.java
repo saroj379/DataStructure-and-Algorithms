@@ -136,6 +136,24 @@ class Hashmap{
     }
 
 
+    // Subarray sum divisible by K
+    public static int subarraySumDivision(int arr[], int k){
+        int n =  arr.length;
+        int count =0, sum =0;
+        Map<Integer, Integer> hm = new HashMap<>();
+        hm.put(0, 1);
+        for(int i=0; i<n; i++){
+            sum += arr[i];
+            int rem = sum % k;
+            if(rem < 0) rem+=k;
+            int oldVal = hm.getOrDefault(rem, 0);
+            count += oldVal;
+            hm.put(rem, oldVal+1);
+        }
+        return count;
+    }
+
+
     // Valid Anagram
     static boolean areAnagram(String c1, String c2) {
         c1 = c1.toLowerCase();
