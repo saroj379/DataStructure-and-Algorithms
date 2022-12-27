@@ -111,6 +111,27 @@ class solution{
         }
         return ans;
     }
+
+
+    // Subarray sum equals K
+    public int subarraySum(int[] nums, int k) {
+        int n = nums.length;
+        Map<Integer, Integer> hm = new HashMap<>();
+        hm.put(0, 1);
+        int sum =0, count =0;
+
+        for(int i=0; i<n; i++){
+            sum += nums[i];
+            if(hm.containsKey(sum-k)){
+                count += hm.get(sum-k);
+            }
+
+            int oldVal = hm.getOrDefault(sum, 0);
+            hm.put(sum, oldVal + 1);
+
+        }
+        return count;
+    }
 }
 
 class ListNode{
