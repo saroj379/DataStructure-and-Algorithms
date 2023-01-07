@@ -63,7 +63,6 @@ class StackUsingLinkedlist {
 //Implementing Queue using Linkedlist
 class Queue {
     Node top;
-    //Write your code here
     public void push(int value) {
         Node newNode = new Node(value);
         if(top == null){

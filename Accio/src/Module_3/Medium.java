@@ -65,6 +65,10 @@ class solution{
     }
 
 
+    // Print bracket numbers
+
+
+
     // Sliding window
     static int[] nextGreaterElementIndex(int[] arr){
         int n = arr.length;
@@ -98,6 +102,35 @@ class solution{
         }
         return ans;
     }
+
+
+    // Stock span
+    static int[] stockSpan(int[] a) {
+        int n = a.length;
+        Stack<Integer> st = new Stack<>();
+        int[] ans = new int[n];
+        for(int i=n-1; i>= 0; i--){
+            if(st.size() == 0) st.push(i);
+            while(st.size() > 0 && a[st.peek()] < a[i]){
+                ans[st.peek()] = i;
+                st.pop();
+            }
+            st.push(i);
+        }
+        while(st.size() > 0){
+            ans[st.peek()] = -1;
+            st.pop();
+        }
+
+        int[] span = new int[n];
+        for(int i=0; i<n; i++){
+            span[i] = i - ans[i];
+        }
+        return span;
+    }
+
+
+
 }
 public class Medium {
     public static void main(String args[])

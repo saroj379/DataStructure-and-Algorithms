@@ -20,6 +20,27 @@ class Hashmap{
     }
 
 
+    // Extra brackets
+    public boolean ExtraBrackets(String exp) {
+        int n = exp.length();
+        Stack<Character> st = new Stack<>();
+        for(int i=0; i<n; i++){
+            char ch = exp.charAt(i);
+            if(ch != ')') st.push(ch);
+            else{
+                if(st.peek() == '(') return true;
+                else{
+                    while(st.size() > 0 && st.peek() != '('){
+                        st.pop();
+                    }
+                    st.pop();
+                }
+            }
+        }
+        return false;
+    }
+
+
     // First element occurs K times
     // 1st approach
     public void firstElementToOccurKTimes(int[] nums, int n, int k) {
@@ -134,6 +155,9 @@ class Hashmap{
         }
         return 0;
     }
+
+
+    // Record Values
 
 
     // Subarray sum divisible by K
