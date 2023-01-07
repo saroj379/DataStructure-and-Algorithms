@@ -4,6 +4,31 @@ import java.util.*;
 
 class Hashmap{
 
+    // Balanced Expression
+    char absChar(char c){
+        if(c == ')')return '(';
+        else if(c == '}')return '{';
+        else if(c== ']')return '[';
+        return '?';
+    }
+
+    boolean expBalanced(String str){
+        int n = str.length();
+        Stack<Character> st = new Stack<>();
+        for(int i=0; i<n; i++){
+            char ch = str.charAt(i);
+            if(ch == '(' || ch == '{' || ch == '[') st.push(ch);
+            else if(!st.empty() && (ch == ')' || ch == '}' || ch == ']')){
+                if(st.peek() != absChar(ch)){
+                    return false;
+                }else {
+                    st.pop();
+                }
+            }
+        }
+        return st.empty();
+    }
+
     // Equilibrim Index
     static int findEquilibriumIndex(int[] a) {
         int n = a.length;
