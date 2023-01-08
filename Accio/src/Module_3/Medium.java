@@ -65,6 +65,29 @@ class solution{
     }
 
 
+    // Next Greater Elements
+    public static long[] nextLargerElement(long[] arr, int n)
+    {
+        long[] ans = new long[n];
+        Stack<Integer> st = new Stack<>();
+        for(int i=0; i<n; i++){
+            while(!st.empty() && arr[st.peek()] < arr[i]){
+                ans[st.peek()] = arr[i];
+                st.pop();
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            ans[st.pop()] = -1;
+        }
+        return ans;
+    }
+
+
+    // Previous greater elements
+    
+
+
     // Print bracket numbers
 
 
