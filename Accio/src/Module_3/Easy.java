@@ -183,7 +183,37 @@ class Hashmap{
 
 
     // Record Values
+    public int recordValues(String[] operations, int n){
+        Stack<String> st = new Stack<>();
+        Stack<String> ist = new Stack<>();
 
+        for(int i=0; i < n; i++){
+            String s = operations[i];
+            char ch = s.charAt(0);
+            if(ch == 'C'){
+                st.pop();
+            }else if(ch == 'D'){
+                int r = Integer.parseInt(st.peek());
+                r = 2*r;
+                st.push(String.valueOf(r));
+            }else if(ch == '+'){
+                int sum =0;
+                for(int k=0; k<2; k++){
+                    sum += Integer.parseInt(st.peek());
+                    ist.push(st.pop());
+                }
+                while(!ist.empty()){
+                    st.push(ist.pop());
+                }
+                st.push(String.valueOf(sum));
+            }else{
+                st.push(s);
+            }
+        }
+
+        int tot =0;
+        return tot;
+    }
 
     // Subarray sum divisible by K
     public static int subarraySumDivision(int arr[], int k){
