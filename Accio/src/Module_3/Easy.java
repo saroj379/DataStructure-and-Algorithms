@@ -212,6 +212,10 @@ class Hashmap{
         }
 
         int tot =0;
+        while(!st.empty()){
+            int r = Integer.parseInt(st.pop());
+            tot += r;
+        }
         return tot;
     }
 
