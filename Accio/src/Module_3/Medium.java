@@ -1,7 +1,6 @@
 package Module_3;
 
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 
 class solution{
@@ -66,7 +65,7 @@ class solution{
 
 
     // Next Greater Elements
-    public static long[] nextLargerElement(long[] arr, int n)
+    public long[] nextLargerElement(long[] arr, int n)
     {
         long[] ans = new long[n];
         Stack<Integer> st = new Stack<>();
@@ -85,7 +84,7 @@ class solution{
 
 
     // Previous greater elements
-    public static long[] prevLargerElement(long[] arr, int n)
+    public long[] prevLargerElement(long[] arr, int n)
     {
         long[] ans = new long[n];
         Stack<Integer> st = new Stack<>();
@@ -104,7 +103,23 @@ class solution{
 
 
     // Print bracket numbers
-
+    public ArrayList<Integer> bracketNumber(String str){
+        int n = str.length();
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<Integer> st = new Stack<>();
+        int c =0;
+        for(int i = 0; i < n; i++){
+            char ch = str.charAt(i);
+            if(ch == '('){
+                c++;
+                st.push(c);
+                list.add(st.peek());
+            }else if(ch == ')'){
+                list.add(st.pop());
+            }
+        }
+        return list;
+    }
 
 
     // Sliding window
