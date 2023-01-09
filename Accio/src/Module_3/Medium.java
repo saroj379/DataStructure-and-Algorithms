@@ -64,6 +64,51 @@ class solution{
     }
 
 
+    // Largest Histogram Area
+    public static long[] nextSmallerElementRightIndex(long arr[] , int n){
+        Stack<Integer> st = new Stack<>();
+        long[] ans = new long[(int)n];
+        for(int i=0; i<n; i++){
+            while(!st.empty() && arr[st.peek()] > arr[i]){
+                ans[st.pop()] = i;
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            ans[st.pop()] = n;
+        }
+        return ans;
+    }
+
+    public static long[] nextSmallerElementLeftIndex(long arr[] , int n){
+        Stack<Integer> st = new Stack<>();
+        long[] ans = new long[(int)n];
+        for(int i=n-1; i>=0; i--){
+            while(!st.empty() && arr[st.peek()] > arr[i]){
+                ans[st.pop()] = i;
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            ans[st.pop()] = -1;
+        }
+        return ans;
+    }
+
+    public static long maximumArea(long hist[], long n){
+        long[] nseli = nextSmallerElementLeftIndex(hist, (int)n);
+        long[] nseri = nextSmallerElementRightIndex(hist, (int)n);
+        long maxArea = 0;
+        for(int i=0; i<n; i++){
+            long height = hist[i];
+            long width = nseri[i] - nseli[i] - 1;
+            long area = height * width;
+            maxArea = Math.max(area, maxArea);
+        }
+        return maxArea;
+    }
+
+
     // Next Greater Elements
     public long[] nextLargerElement(long[] arr, int n)
     {
