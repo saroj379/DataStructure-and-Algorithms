@@ -29,6 +29,31 @@ class Hashmap{
         return st.empty();
     }
 
+
+    // Celebrity Problems
+    int findCelebrity(int M[][], int n)
+    {
+        Stack<Integer> st = new Stack<>();
+        for(int i=0; i<n; i++){
+            st.push(i);
+        }
+        while(st.size() >= 2){
+            int p1 = st.pop();
+            int p2 = st.pop();
+            if(M[p1][p2] == 1)st.push(p2);
+            else st.push(p1);
+        }
+        int celeb = st.pop();
+        for(int k=0; k<n; k++){
+            if(M[celeb][k] == 1) return -1;
+        }
+        for(int r=0; r<n; r++){
+            if(r!=celeb && M[r][celeb] ==0) return -1;
+        }
+        return celeb;
+    }
+
+
     // Equilibrim Index
     static int findEquilibriumIndex(int[] a) {
         int n = a.length;
