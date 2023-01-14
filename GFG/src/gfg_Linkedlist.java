@@ -57,6 +57,20 @@ public class gfg_Linkedlist {
     }
 
 
+    // Linkedlist length Even or Odd
+    int isLengthEvenorOdd(Node head1)
+    {
+        int count =0;
+        Node temp = head1;
+        while(temp != null){
+            count ++;
+            temp = temp.next;
+        }
+        if(count%2==0) return 0;
+        return 1;
+    }
+
+
     // Print LinkedList Elements
     void display(Node head)
     {
