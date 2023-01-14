@@ -54,6 +54,41 @@ class Hashmap{
     }
 
 
+    // Design Stack Using linkedlist
+    Node top;
+   
+
+    public void push(int x)
+    {
+        Node temp = new Node(x);
+        if(top == null){
+            top = temp;
+            return;
+        }
+        temp.link = top;
+        top = temp;
+    }
+
+    public int peek()
+    {
+        if(top == null)return -1;
+        return top.data;
+    }
+
+    public void pop()
+    {
+        if(top == null) return;
+        Node forward = top.link;
+        top.link = null;
+        top = forward;
+    }
+
+    public Node display()
+    {
+        return top;
+    }
+
+
     // Equilibrim Index
     static int findEquilibriumIndex(int[] a) {
         int n = a.length;
