@@ -14,6 +14,20 @@ class Node{
 }
 public class gfg_Linkedlist {
 
+    // Check If Circular LinkedList
+    boolean isCircular(Node head)
+    {
+        Node tor = head;
+        Node hare = head;
+        while(hare.next != null && hare.next.next != null){
+            tor = tor.next;
+            hare = hare.next.next;
+            if(hare == tor) return true;
+        }
+        return false;
+    }
+
+
     //Detect lope in linkedlist.
     public static boolean detectLoop(Node head){
         Node slow = head;
