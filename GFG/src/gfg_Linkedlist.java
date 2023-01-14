@@ -57,6 +57,37 @@ public class gfg_Linkedlist {
     }
 
 
+    // Implement Stack using Linked List
+     class StackNode {
+         int data;
+         StackNode next;
+         StackNode(int a) {
+             data = a;
+             next = null;
+         }
+     }
+    StackNode top;
+    void push(int a)
+    {
+        StackNode newNode = new StackNode(a);
+        if(top == null){
+            top = newNode;
+            return;
+        }
+        newNode.next = top;
+        top = newNode;
+    }
+
+    //Function to remove an item from top of the stack.
+    int pop()
+    {
+        if(top == null) return -1;
+        int val = top.data;
+        top=top.next;
+        return val;
+    }
+
+
     // Linkedlist length Even or Odd
     int isLengthEvenorOdd(Node head1)
     {
