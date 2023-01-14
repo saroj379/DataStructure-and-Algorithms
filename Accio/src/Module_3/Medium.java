@@ -128,7 +128,7 @@ class solution{
     }
 
 
-    // Previous greater elements
+    // Next greater element on left
     public long[] prevLargerElement(long[] arr, int n)
     {
         long[] ans = new long[n];
@@ -146,6 +146,39 @@ class solution{
         return ans;
     }
 
+
+    // next smaller on right (index)
+    public int[] nextSmallerElementRightIndex(int n, int a[]){
+        Stack<Integer> st = new Stack<>();
+        int[] ans = new int[n];
+        for(int i=0; i<n; i++){
+            while(!st.empty() && a[st.peek()] > a[i]){
+                ans[st.pop()] = i;
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            ans[st.pop()] = n;
+        }
+        return ans;
+    }
+
+
+    // Next smaller on left (index)
+    public int[] nextSmallerElementLeftIndex(int n, int a[]){
+        Stack<Integer> st = new Stack<>();
+        int[] ans = new int[n];
+        for(int i=n-1; i>=0; i--){
+            while(!st.empty() && a[st.peek()] > a[i]){
+                ans[st.pop()] = i;
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            ans[st.pop()] = -1;
+        }
+        return ans;
+    }
 
     // Print bracket numbers
     public ArrayList<Integer> bracketNumber(String str){
@@ -228,6 +261,32 @@ class solution{
     }
 
 
+    // Sum of Subarray Minimum value
+    long mod = 1000000007;
+    public long minSubarraySum(int n, int a[]){
+        long totSum =0;
+        Stack<Integer> st = new Stack<>();
+        for(int i=0; i<n; i++){
+            while(!st.empty() && a[st.peek()] > a[i]){
+                int cidx = st.pop();
+                int r = i;
+                int l = (st.empty()) ? -1:st.peek();
+
+                long numberOfSubarrays = ((r-cidx) * (cidx -l)) % mod;
+                totSum += (numberOfSubarrays * a[cidx]) % mod;
+            }
+            st.push(i);
+        }
+        while(!st.empty()){
+            int cidx = st.pop();
+            int r = n;
+            int l = (st.empty()) ? -1:st.peek();
+
+            long numberOfSubarrays = ((r-cidx) * (cidx -l)) % mod;
+            totSum += (numberOfSubarrays * a[cidx]) % mod;
+        }
+        return totSum % mod;
+    }
 
 }
 public class Medium {
