@@ -56,7 +56,7 @@ class Hashmap{
 
     // Design Stack Using linkedlist
     Node top;
-   
+
 
     public void push(int x)
     {

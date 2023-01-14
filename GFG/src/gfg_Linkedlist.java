@@ -3,6 +3,8 @@ LinkedList of geeks for geeks (as diction sequence)
 Totall Problem :- 3
 */
 
+import java.util.Arrays;
+
 //Node class for a single node while create...
 class Node{
     int data;
@@ -83,7 +85,9 @@ public class gfg_Linkedlist {
     {
         if(top == null) return -1;
         int val = top.data;
-        top=top.next;
+        StackNode forward = top.next;
+        top.next = null;
+        top = forward;
         return val;
     }
 
@@ -99,6 +103,18 @@ public class gfg_Linkedlist {
         }
         if(count%2==0) return 0;
         return 1;
+    }
+
+
+    // Missing number in Array
+    int MissingNumber(int array[], int n) {
+        Arrays.sort(array);
+        for(int i=0; i<n-1; i++){
+            if(array[i]-1 != i){
+                return i+1;
+            }
+        }
+        return n;
     }
 
 
