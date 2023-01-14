@@ -94,5 +94,20 @@ public class gfg_Linkedlist {
     }
 
 
+    // Reverse a linked list.
+     Node reverseList(Node head)
+     {
+         Node curr = head;
+         Node prev = null;
+         while(curr != null){
+             Node nxt = curr.next;
+             curr.next = prev;
+
+             prev = curr;
+             curr = nxt;
+         }
+         head = prev;
+         return head;
+     }
 
 }
