@@ -43,6 +43,16 @@ public class gfg_Linkedlist {
     }
 
 
+    // Print LinkedList Elements
+    void display(Node head)
+    {
+        Node newNode = head;
+        while(newNode != null){
+            System.out.print(newNode.data+" ");
+            newNode = newNode.next;
+        }
+    }
+
     //Remove a loop in the linked list.
     public static void removeLoop(Node head){
         Node slow = head;
