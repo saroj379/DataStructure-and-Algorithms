@@ -56,8 +56,6 @@ class Hashmap{
 
     // Design Stack Using linkedlist
     Node top;
-
-
     public void push(int x)
     {
         Node temp = new Node(x);
@@ -156,6 +154,31 @@ class Hashmap{
         }
         System.out.print(-1);
     }
+
+// Implement Stack using Queue push O(1)
+
+//    Queue<Integer> qu1 = new LinkedList<>();
+//    Queue<Integer> qu2 = new LinkedList<>();
+//    void push(int a)
+//    {
+//        qu1.add(a);
+//    }
+//
+//    int pop()
+//    {
+//        int ans = 0;
+//        if(qu1.size() == 0) return -1;
+//        else{
+//            while(qu1.size() > 1){
+//                qu2.add(qu1.remove());
+//            }
+//            ans = qu1.remove();
+//
+//            while(qu2.size() > 0){
+//                qu1.add(qu2.remove());
+//            }
+//        }
+//        return ans;
 
 
     // Largest subarray 0 sum
