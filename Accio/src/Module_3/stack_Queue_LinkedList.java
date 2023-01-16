@@ -213,6 +213,36 @@ class StackQueue
 //}
 
 
+
+// Implementing Queue using Stack - Dequeue O(1)
+class StackQueue_
+{
+    //Function to push an element in queue by using 2 stacks.
+    Stack<Integer> st1 = new Stack<>();
+    Stack<Integer> st2 = new Stack<>();
+
+    void Push(int x)
+    {
+        while(st1.size() > 0){
+            st2.push(st1.pop());
+        }
+        st1.push(x);
+        // System.out.println(st2);
+        while(st2.size() > 0){
+            st1.push(st2.pop());
+        }
+        // System.out.println(st1);
+    }
+
+    //Function to pop an element from queue by using 2 stacks.
+    int Pop()
+    {
+        if(st1.size() == 0) return -1;
+        return st1.pop();
+    }
+}
+
+
 //Implementing Array using 2-Queues
 class twoStacks {
     int[] arr;

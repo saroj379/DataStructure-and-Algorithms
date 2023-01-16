@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="initial commit">
+    <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/src/Module_1/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_1/Easy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accio/src/Module_3/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_3/Easy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/src/Module_3/stack_Queue_LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_3/stack_Queue_LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671055698269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stack using Queue push O(1)">
+      <created>1673800965234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673800965234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="stack using Queue push O(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack using Queue push O(1)" />
   </component>
 </project>

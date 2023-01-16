@@ -5,7 +5,23 @@ package Module_1;
 class solution{
 
 
-    // STRING
+    // RECURSION ----------------------------------------------------------------
+
+    // First Occurance Index of an Element
+    static int firstIndex(int A[],int T,int startIndex)
+    {
+        int size = A.length;
+        if(startIndex == size){
+            return -1;
+        }
+        if(A[startIndex] == T){
+            return startIndex;
+        }
+        return firstIndex(A,T,++startIndex);
+    }
+
+
+    // STRING----------------------------------------------------------------
 
     // Count and Say
     public String countandsay(int n) {
