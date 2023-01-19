@@ -70,7 +70,39 @@ class Hashmap{
     }
 
     // Approach- 2
-    
+
+    class Solution {
+
+        List<Integer>[] hashTable;
+        int size = 75000;
+        Solution(){
+            hashTable = new LinkedList[size];
+        }
+        public int hashFunction(int key){
+            return key%size;
+        }
+        public void add(int key) {
+            int i = hashFunction(key);
+            if(hashTable[i] == null)
+                hashTable[i] = new LinkedList<>();
+            if(hashTable[i].indexOf(key) == -1)
+                hashTable[i].add(key);
+        }
+
+        public void remove(int key) {
+            int i = hashFunction(key);
+            if(hashTable[i] == null) return;
+            if(hashTable[i].indexOf(key) != -1)
+                hashTable[i].remove(hashTable[i].indexOf(key));
+        }
+
+        public boolean contains(int key) {
+            int i = hashFunction(key);
+            if(hashTable[i] == null || hashTable[i].indexOf(key) == -1)
+                return false;
+            return true;
+        }
+    }
 
 
     // Design Stack Using linkedlist
