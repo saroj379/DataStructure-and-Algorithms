@@ -54,6 +54,25 @@ class Hashmap{
     }
 
 
+    // Design Hashset
+    // Approach- 1
+    int[] arr = new int[1000001];
+    public void add(int key) {
+        arr[key] = 1;
+    }
+
+    public void remove(int key) {
+        arr[key] = 0;
+    }
+
+    public boolean contains(int key) {
+        return (arr[key] == 1);
+    }
+
+    // Approach- 2
+    
+
+
     // Design Stack Using linkedlist
     Node top;
     public void push(int x)
