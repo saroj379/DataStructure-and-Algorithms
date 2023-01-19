@@ -176,7 +176,7 @@ class Hashmap{
 
 
     // First element occurs K times
-    // 1st approach
+    // 1st approach (Brute force)
     public void firstElementToOccurKTimes(int[] nums, int n, int k) {
         int[] cnt = new int[1000001];
         for(int i=0; i<nums.length; i++){
@@ -205,6 +205,20 @@ class Hashmap{
         }
         System.out.print(-1);
     }
+
+
+    // same as 2nd but updated
+     public void firstElementToOccurKTimes__(int[] nums, int n, int k) {
+            HashMap<Integer, Integer> hm = new HashMap<>();
+    		for(int num:nums){
+    			hm.put(num, hm.getOrDefault(num,0)+1);
+    			if(hm.get(num) == k){
+    				System.out.print(num);
+    				return;
+    			}
+    		}
+    		System.out.print(-1);
+        }
 
 
     // Largest subarray 0 sum
