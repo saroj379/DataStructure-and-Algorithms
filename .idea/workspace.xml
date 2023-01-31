@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/EASY/EASY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/EASY/QU1/QU1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/EASY/QU1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/EASY/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/HARD/HARD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/HARD/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/MEDIUM/MEDIUM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/MEDIUM/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/Module-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-2/Module-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-3/Module-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accio/src/Module_3/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/src/Module_3/Easy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +60,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/princ/Projects/DSA__JAVA&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-1\EASY\QU1\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
