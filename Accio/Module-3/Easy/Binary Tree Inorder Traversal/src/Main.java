@@ -55,17 +55,16 @@ class Main {
         //System.out.print(s);
         Node root = buildTree(s);
         Solution tree = new Solution();
-        tree.preorderTraversal(root);
+        tree.inorderTraversal(root);
 
     }
 }
 
 class Solution {
-    public static void preorderTraversal(Node root) {
+    public static void inorderTraversal(Node root) {
         if(root == null) return;
+        inorderTraversal(root.left);
         System.out.print(root.data+" ");
-        preorderTraversal(root.left);
-        preorderTraversal(root.right);
-
+        inorderTraversal(root.right);
     }
 }
