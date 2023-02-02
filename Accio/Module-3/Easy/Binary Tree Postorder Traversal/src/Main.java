@@ -55,18 +55,15 @@ class Main {
         //System.out.print(s);
         Node root = buildTree(s);
         Solution tree = new Solution();
-        tree.preorderTraversal(root);
-
+        tree.postorderTraversal(root);
     }
 }
 
 class Solution {
-    public static void preorderTraversal(Node root) {
-
-        if(root == null) return;
-        System.out.print(root.data+" ");
-        preorderTraversal(root.left);
-        preorderTraversal(root.right);
-
+    public static void postorderTraversal(Node root) {
+        if(root == null)return;
+        postorderTraversal(root.left);
+        postorderTraversal(root.right);
+        System.out.print(root.data);
     }
 }

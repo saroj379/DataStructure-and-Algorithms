@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Accio/Accio.iml" filepath="$PROJECT_DIR$/Accio/Accio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Apna_College.iml" filepath="$PROJECT_DIR$/Apna_College/Apna_College.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Inorder Traversal/Binary Tree Inorder Traversal.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Inorder Traversal/Binary Tree Inorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Preorder Traversal/Binary Tree Preorder Traversal.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Preorder Traversal/Binary Tree Preorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA__JAVA.iml" filepath="$PROJECT_DIR$/DSA__JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/EASY/EASY.iml" filepath="$PROJECT_DIR$/Accio/Module-1/EASY/EASY.iml" />
@@ -13,12 +14,15 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Hard/Hard.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Hard/Hard.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/MEDIUM/MEDIUM.iml" filepath="$PROJECT_DIR$/Accio/Module-1/MEDIUM/MEDIUM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/Medium/Medium.iml" filepath="$PROJECT_DIR$/Accio/Module-2/Medium/Medium.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Medum/Medum.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Medum/Medum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/Module-1.iml" filepath="$PROJECT_DIR$/Accio/Module-1/Module-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/Module-2.iml" filepath="$PROJECT_DIR$/Accio/Module-2/Module-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Module-3.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Module-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/EASY/QU1/QU1.iml" filepath="$PROJECT_DIR$/Accio/Module-1/EASY/QU1/QU1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/easy/easy.iml" filepath="$PROJECT_DIR$/Accio/Module-2/easy/easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/hard/hard.iml" filepath="$PROJECT_DIR$/Accio/Module-2/hard/hard.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/EASY/qu2/qu2.iml" filepath="$PROJECT_DIR$/Accio/Module-1/EASY/qu2/qu2.iml" />
     </modules>
   </component>
