@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/Accio/Module-2/Easy/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-2/Hard/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-2/Medium/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Preorder Traversal/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/Easy/Binary Tree Preorder Traversal/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Binary To Decimal/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/princ/Projects/DSA__JAVA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/princ/Projects/DSA__JAVA&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0\Functions_And_Methods" />
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-1\EASY\QU1\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Binary To Decimal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="binaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binaryTree" />
       <module name="Medum" />
@@ -65,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.binaryTree" />
       </list>
     </recent_temporary>
