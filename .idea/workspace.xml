@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Binary To Decimal/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Binary To Decimal/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Binary To Decimal/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,14 @@
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-1\EASY\QU1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Decimal To Binary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Binary To Decimal" />
@@ -76,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.binaryTree" />
       </list>

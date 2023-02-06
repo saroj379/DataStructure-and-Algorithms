@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static int binaryToDecimal(int n){
         int decVal =0;int pwr =0;
@@ -10,6 +12,8 @@ public class Main {
         return decVal;
     }
     public static void main(String[] args) {
-        System.out.println(binaryToDecimal(1111));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Binary Value, Which will convert to Decimal: ");
+        System.out.print(binaryToDecimal(sc.nextInt()));
     }
 }
