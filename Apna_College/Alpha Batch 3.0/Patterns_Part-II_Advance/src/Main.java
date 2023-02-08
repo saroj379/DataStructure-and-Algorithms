@@ -142,5 +142,38 @@ public class Main
             }
             System.out.println();
         }
+
+        int[] numbers = {2, 3, 5, 7, 8, 9};
+        printSubarray(numbers);
+        sumOfSubarrays(numbers);
     }
+
+    // print subarray
+    public static void printSubarray(int arr[]){
+        for(int i = 0; i < arr.length; i++){
+            int start = i;
+            for(int j = i; j < arr.length; j++){
+                int end = j;
+                for(int k = start; k <= end; k++){
+                    System.out.print(arr[k]+" ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+
+    // sum of subarrays
+    public static void sumOfSubarrays(int arr[]){
+        for(int i = 0; i < arr.length; i++){
+            int sum =0;
+            for(int j = i; j < arr.length; j++){
+                sum += arr[j];
+                System.out.println(sum);
+            }
+            System.out.println();
+        }
+    }
+
+
 }
