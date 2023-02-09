@@ -42,6 +42,20 @@ public class Main {
         return max;
     }
 
+    // Kadane Approach
+    public static void kadanesApproach(int arr[]){
+        int ms = Integer.MIN_VALUE;
+        int cs = 0;
+        for(int i =0; i < arr.length; i++){
+            cs += arr[i];
+            if(cs < 0){
+                cs = 0;
+            }
+            if(cs > ms)ms = cs;
+        }
+        System.out.println(ms);
+    }
+
 
     public static void main(String[] args) {
 
@@ -49,5 +63,6 @@ public class Main {
         printSubarray(numbers);
         sumOfSubarrays(numbers);
         System.out.print(maximumSumOfSubarray(numbers));
+        kadanesApproach(numbers);
     }
 }
