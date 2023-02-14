@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Easy_/Easy_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Easy_/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Hard_/Hard_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Hard_/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Medium_/Medium_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Medium_/Spiral Matrix At kth Element/Spiral Matrix At kth Element.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Medium_/Spiral Matrix At kth Element/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/Medium_/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Diagonal Sum/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
