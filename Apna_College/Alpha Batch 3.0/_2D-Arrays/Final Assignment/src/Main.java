@@ -18,12 +18,8 @@ public class Main {
     // Print out the sum of 2nd row
     public static int sumOf2ndRow(int[][] mat){
         int sum =0;
-        for(int i =0; i < mat.length; i++){
-            for(int j = 0; j < mat[0].length; j++){
-                if(i == 2-1){
-                    sum += mat[i][j];
-                }
-            }
+        for(int i =0; i < mat[0].length; i++){
+            sum += mat[1][i];
         }
         return sum;
     }
@@ -48,6 +44,7 @@ public class Main {
         int[][] mat = {{1, 4, 9}, {11, 4, 3}, {2, 2, 3}};
         System.out.println("Sum of 2nd row: "+sumOf2ndRow(mat));
 
+        System.out.println("Transpose of matrix: ");
         transposeMatrix(mat);
     }
 }
