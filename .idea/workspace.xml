@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Rotated Sorted Array Search/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,24 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/princ/Projects/DSA__JAVA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/princ/Projects/DSA__JAVA/Accio/Module-3/MEDIUM"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0\Functions_And_Methods" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-1\EASY\QU1\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Decimal To Binary" />
@@ -77,9 +79,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Binary To Decimal" />
+      <module name="Diameter of a Binary Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.binaryTree" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +144,21 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="stack using Queue push O(1)" />
     <option name="LAST_COMMIT_MESSAGE" value="stack using Queue push O(1)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/src/Main.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/src/Main.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

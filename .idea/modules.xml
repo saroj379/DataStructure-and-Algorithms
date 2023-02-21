@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Accio/Accio.iml" filepath="$PROJECT_DIR$/Accio/Accio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Aggresive Cows/Aggresive Cows.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Aggresive Cows/Aggresive Cows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/HARD/Allocate Minimum Number Of Pages/Allocate Minimum Number Of Pages.iml" filepath="$PROJECT_DIR$/Accio/Module-3/HARD/Allocate Minimum Number Of Pages/Allocate Minimum Number Of Pages.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Alpha Batch 3.0.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Alpha Batch 3.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Apna_College.iml" filepath="$PROJECT_DIR$/Apna_College/Apna_College.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Array_Assignments/Array_Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Array_Assignments/Array_Assignments.iml" />
@@ -17,10 +19,12 @@
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/Decimal To Binary.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/Decimal To Binary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/EASY/Design Stack Using Array/Design Stack Using Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/EASY/Design Stack Using Array/Design Stack Using Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Diagonal Sum/Diagonal Sum.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Diagonal Sum/Diagonal Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/Diameter of a Binary Tree.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/Diameter of a Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/EASY/EASY.iml" filepath="$PROJECT_DIR$/Accio/Module-1/EASY/EASY.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/EASY/Easy.iml" filepath="$PROJECT_DIR$/Accio/Module-3/EASY/Easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Easy_.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Easy_.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Final Assignment/Final Assignment.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Final Assignment/Final Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find First and Last Position of Element in Sorted Array/Find First and Last Position of Element in Sorted Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find First and Last Position of Element in Sorted Array/Find First and Last Position of Element in Sorted Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find Minimum in Rotated Sorted Array/Find Minimum in Rotated Sorted Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find Minimum in Rotated Sorted Array/Find Minimum in Rotated Sorted Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_And_Methods.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_And_Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_Assignments/Functions_Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_Assignments/Functions_Assignments.iml" />
@@ -37,12 +41,17 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/Module-3.iml" filepath="$PROJECT_DIR$/Accio/Module-3/Module-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Patterns_Part-II_Advance/Patterns_Part-II_Advance.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Patterns_Part-II_Advance/Patterns_Part-II_Advance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/EASY/Peak Index in a Mountain Array/Peak Index in a Mountain Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/EASY/Peak Index in a Mountain Array/Peak Index in a Mountain Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Printt subarray_sum_max/Printt subarray_sum_max.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Printt subarray_sum_max/Printt subarray_sum_max.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/EASY/QU1/QU1.iml" filepath="$PROJECT_DIR$/Accio/Module-1/EASY/QU1/QU1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/EASY/Reverse Integer/Reverse Integer.iml" filepath="$PROJECT_DIR$/Accio/Module-3/EASY/Reverse Integer/Reverse Integer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Search A 2D Matrix/Search A 2D Matrix.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Search A 2D Matrix/Search A 2D Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/_Medium/Search a 2D Matrix/Search a 2D Matrix.iml" filepath="$PROJECT_DIR$/LeetCode/_Medium/Search a 2D Matrix/Search a 2D Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Search on Matrix/Search on Matrix.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Search on Matrix/Search on Matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Search on Sorted Mattrix/Search on Sorted Mattrix.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/Search on Sorted Mattrix/Search on Sorted Mattrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/Shortest Path/Shortest Path.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/Shortest Path/Shortest Path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Size_Sum_Maximum And Height Of A Binary Tree/Size_Sum_Maximum And Height Of A Binary Tree.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Size_Sum_Maximum And Height Of A Binary Tree/Size_Sum_Maximum And Height Of A Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Sortings/Sorting Assignments/Sorting Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Sortings/Sorting Assignments/Sorting Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Sortings/Sortings.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Sortings/Sortings.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/_Medium/Spiral Matrix/Spiral Matrix.iml" filepath="$PROJECT_DIR$/LeetCode/_Medium/Spiral Matrix/Spiral Matrix.iml" />
@@ -53,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/String Compression/String Compression.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/String Compression/String Compression.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/Strings.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Tapping RainWater/Tapping RainWater.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Tapping RainWater/Tapping RainWater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Text Editor/Text Editor.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Text Editor/Text Editor.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Medium_/Trapping Rain Water/Trapping Rain Water.iml" filepath="$PROJECT_DIR$/GFG/Medium_/Trapping Rain Water/Trapping Rain Water.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/MEDIUM/Valid Parenthesis String/Valid Parenthesis String.iml" filepath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Valid Parenthesis String/Valid Parenthesis String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/_2D-Arrays.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/_2D-Arrays/_2D-Arrays.iml" />
