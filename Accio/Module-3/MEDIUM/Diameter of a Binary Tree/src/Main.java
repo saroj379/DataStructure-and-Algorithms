@@ -57,6 +57,7 @@ class Node {
     }
 }
 
+// TC - O(N^2), SC - O(h)
 class Solution {
 
     public static int heightOfTree(Node root){
@@ -77,5 +78,44 @@ class Solution {
         int myDia = heightOfTree(root.left) + 1 + heightOfTree(root.right);
 
         return Math.max(myDia, Math.max(maxDiaOnRight, maxDiaOnLeft));
+    }
+}
+
+
+// TC - O(N), SC - O(h)
+class Solution_ {
+
+    static class Pair{
+        int height;
+        int diameter;
+
+        Pair(){
+            height = 0;
+            diameter = 0;
+        }
+
+        Pair(int h, int d){
+            this.height = h;
+            this.diameter = d;
+        }
+    }
+
+    public static Pair diameter2(Node root){
+        if(root == null) return new Pair();
+
+        Pair leftPair = diameter2(root.left);
+        Pair rightPair = diameter2(root.right);
+
+        int height =  1 + Math.max(leftPair.height , rightPair.height);
+
+        int diaThroughMe = leftPair.height + rightPair.height + 1;
+        int myDia = Math.max(diaThroughMe, Math.max(leftPair.diameter, rightPair.diameter));
+
+        return new Pair(height, myDia);
+    }
+
+    public static int diameter(Node root) {
+        Pair pair = diameter2(root);
+        return pair.diameter;
     }
 }
