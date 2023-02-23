@@ -23,9 +23,8 @@ public class Main {
 
 class Accio {
 
-    static int findElement(int arr[], int n,int target)
-    {
-        int lo = 0, hi = n-1;
+    static int binarySearch(int arr[], int start, int end, int target){
+        int lo = start, hi = end;
         while(lo <= hi){
             int mid = (lo + hi) / 2;
             if(arr[mid] == target) return mid;
@@ -33,5 +32,49 @@ class Accio {
             else lo = mid + 1;
         }
         return -1;
+    }
+
+    static int findElement(int arr[], int n,int target)
+    {
+        int lo = 0, hi = n-1;
+        int ans = -1;
+        while(lo <= hi){
+            int mid = (lo + hi) / 2;
+            if(arr[mid] == target) {
+                return mid;
+            }
+            else if(arr[mid] > arr[mid + 1]){
+                int start = mid +1, end = n-1;
+                while(start <= end){
+                    int mid2 = (start + end) / 2;
+                    if(arr[mid2] == target) {
+                        return mid2;
+                    }
+                    else if(arr[mid2] > target) {
+                        end = mid2 - 1;
+                    }
+                    else {
+                        start = mid2 + 1;
+                    }
+                }
+            }
+            else{
+                int start = lo, end = mid -1;
+                while(start <= end){
+                    int mid2 = (start + end) / 2;
+                    if(arr[mid2] == target) {
+                        return mid2;
+                    }
+                    else if(arr[mid2] > target) {
+                        end = mid2 - 1;
+                    }
+                    else {
+                        start = mid2 + 1;
+                    }
+                }
+                return -1;
+            }
+        }
+        return ans;
     }
 }
