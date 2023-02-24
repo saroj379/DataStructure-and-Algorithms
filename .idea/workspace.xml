@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/Yash and Manufacturing/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/CONTESTS/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accio/Module-3/EASY/Search In Bitonic Array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/EASY/Search In Bitonic Array/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0\Functions_And_Methods" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Apna_College\Alpha Batch 3.0" />
