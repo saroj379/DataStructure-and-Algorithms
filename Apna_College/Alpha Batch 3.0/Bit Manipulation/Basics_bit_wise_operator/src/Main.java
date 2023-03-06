@@ -32,6 +32,22 @@ public class Main {
         return n & bitMask;
     }
 
+    // Update ith bit
+    public static int update_ithBit(int n, int i, int newBit) {
+        // approach 1
+//        if(newBit == 0){
+//            return clear_ithBit(n, i);
+//        }else{
+//            return set_ithBit(n, i);
+//        }
+
+
+        // 2nd approach
+        n = clear_ithBit(n ,i);
+        int bitMask = newBit << i;
+        return n | bitMask;
+    }
+
     public static void main(String[] args) {
         // Odd or Even using bit-wise operator
         oddOrEven(3);
