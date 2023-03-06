@@ -46,6 +46,6 @@ public class Main {
         System.out.println("Set ith bit : "+set_ithBit(10, 2));
 
         // clear ith bit
-        System.out.println("CLear ith bit : "+set_ithBit(10, 1));
+        System.out.println("CLear ith bit : "+clear_ithBit(10, 1));
     }
 }
