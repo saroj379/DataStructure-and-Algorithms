@@ -26,17 +26,26 @@ public class Main {
         return n | bitMask;
     }
 
+    // clear ith bit
+    public static int clear_ithBit(int n, int i){
+        int bitMask = ~(1 << i);
+        return n & bitMask;
+    }
+
     public static void main(String[] args) {
         // Odd or Even using bit-wise operator
         oddOrEven(3);
         oddOrEven(18);
 
         // get ith bit
-        System.out.println("get ith bit : "+get_ithBit(15, 2));
-        System.out.println("get ith bit : "+get_ithBit(10, 2));
-        System.out.println("get ith bit : "+get_ithBit(15, 3));
+        System.out.println("Get ith bit : "+get_ithBit(15, 2));
+        System.out.println("Get ith bit : "+get_ithBit(10, 2));
+        System.out.println("Get ith bit : "+get_ithBit(15, 3));
 
         // set ith bit
         System.out.println("Set ith bit : "+set_ithBit(10, 2));
+
+        // clear ith bit
+        System.out.println("CLear ith bit : "+set_ithBit(10, 1));
     }
 }
