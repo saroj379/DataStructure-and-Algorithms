@@ -54,6 +54,14 @@ public class Main {
         return n & bitMAsk;
     }
 
+    // Clear bits in Range
+    public static int clear_rangeBits(int n, int i ,int j){
+        int a = ((~0) << (j+1));
+        int b = (1 << i) -1;
+        int bitMask = a | b;
+        return n & bitMask;
+    }
+
     public static void main(String[] args) {
         // Odd or Even using bit-wise operator
         oddOrEven(3);
@@ -72,5 +80,8 @@ public class Main {
 
         // clear last ithe bits
         System.out.println("CLear ith bit : "+clear_lastBits(15, 2));
+
+        // clear bits in range
+        System.out.println("CLear ith bit : "+clear_rangeBits(10, 2, 4));
     }
 }
