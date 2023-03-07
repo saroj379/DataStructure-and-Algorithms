@@ -62,6 +62,40 @@ public class Main {
         return n & bitMask;
     }
 
+    // is power of 2
+    public static boolean isPowerOf2(int n){
+        return ((n & (n-1) )== 0);
+    }
+
+    // Count set bits
+    public static int countSetBits(int n){
+        int count = 0;
+        while(n > 0){
+            if((n & 1) != 0){
+                count++;
+            }
+            n = n>>1;
+        }
+
+        return count;
+    }
+
+    // Fast Exponentiation
+    public static int fastExpo(int a, int n) {
+        int ans = 1;
+
+        while(n > 0){
+            if((n & 1) != 0){
+                ans = ans * a;
+            }
+            a = a * a;
+            n = n>>1;
+        }
+
+        return ans;
+    }
+
+
     public static void main(String[] args) {
         // Odd or Even using bit-wise operator
         oddOrEven(3);
@@ -79,9 +113,18 @@ public class Main {
         System.out.println("CLear ith bit : "+clear_ithBit(10, 1));
 
         // clear last ithe bits
-        System.out.println("CLear ith bit : "+clear_lastBits(15, 2));
+        System.out.println("CLear last ith bit : "+clear_lastBits(15, 2));
 
         // clear bits in range
-        System.out.println("CLear ith bit : "+clear_rangeBits(10, 2, 4));
+        System.out.println("CLear bits in range : "+clear_rangeBits(10, 2, 4));
+
+        // is power of 2
+        System.out.println("Is power of 2 : "+isPowerOf2(8));
+
+        // count set bits
+        System.out.println("number  of set bits : "+countSetBits(2));
+
+        // Fast Expo
+        System.out.println("Fast Exponetiation : "+fastExpo(2,10));
     }
 }
