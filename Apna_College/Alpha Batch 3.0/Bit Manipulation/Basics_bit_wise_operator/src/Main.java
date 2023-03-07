@@ -48,6 +48,12 @@ public class Main {
         return n | bitMask;
     }
 
+    // Clear last ith bits
+    public static int clear_lastBits(int n, int i){
+        int bitMAsk = (~0) << i;
+        return n & bitMAsk;
+    }
+
     public static void main(String[] args) {
         // Odd or Even using bit-wise operator
         oddOrEven(3);
@@ -63,5 +69,8 @@ public class Main {
 
         // clear ith bit
         System.out.println("CLear ith bit : "+clear_ithBit(10, 1));
+
+        // clear last ithe bits
+        System.out.println("CLear ith bit : "+clear_lastBits(15, 2));
     }
 }
