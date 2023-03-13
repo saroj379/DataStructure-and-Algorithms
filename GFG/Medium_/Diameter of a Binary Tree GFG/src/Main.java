@@ -116,26 +116,63 @@ class GfG {
 }*/
 
 class Solution {
-    // height of the tree
-    int heightOfTree(Node root){
-        if(root == null) return 0;
 
-        int leftHeight = heightOfTree(root.left);
-        int rightHeight = heightOfTree(root.right);
+//    Approach -1 , TC -> O(N^2), SC -> O(N)
+//    // height of the tree
+//    int heightOfTree(Node root){
+//        if(root == null) return 0;
+//
+//        int leftHeight = heightOfTree(root.left);
+//        int rightHeight = heightOfTree(root.right);
+//
+//        return Math.max(leftHeight, rightHeight) + 1;
+//    }
+//
+//    // Function to return the diameter of a Binary Tree.
+//    int diameter(Node root) {
+//
+//        if(root == null) return 0;
+//
+//        int maxDiaLeft  = diameter(root.left);
+//        int maxDiaRight = diameter(root.right);
+//
+//        int myDia = heightOfTree(root.left) + 1 + heightOfTree(root.right);
+//
+//        return Math.max(myDia, Math.max(maxDiaLeft, maxDiaRight));
+//    }
 
-        return Math.max(leftHeight, rightHeight) + 1;
+
+//    Approach -2, TC -> O(N), SC -> O(N)
+    class Pair{
+        int height, dia;
+        Pair(){
+            height = 0;
+            dia = 0;
+        }
+        Pair(int h, int d){
+            this.height = h;
+            this.dia = d;
+        }
     }
+    Pair diameter2(Node root){
+        if(root == null){
+            return new Pair();
+        }
 
-    // Function to return the diameter of a Binary Tree.
+        Pair leftPair = diameter2(root.left);
+        Pair rightPair = diameter2(root.right);
+
+        int height = Math.max(leftPair.height, rightPair.height) +1;
+
+        int diaThroughMe = leftPair.height + 1 + rightPair.height;
+
+        int dia = Math.max(diaThroughMe, Math.max(leftPair.dia, rightPair.dia));
+
+        return new Pair(height, dia);
+    }
     int diameter(Node root) {
-
-        if(root == null) return 0;
-
-        int maxDiaLeft  = diameter(root.left);
-        int maxDiaRight = diameter(root.right);
-
-        int myDia = heightOfTree(root.left) + 1 + heightOfTree(root.right);
-
-        return Math.max(myDia, Math.max(maxDiaLeft, maxDiaRight));
+        Pair pair = diameter2(root);
+        return pair.dia;
     }
+
 }
