@@ -129,31 +129,75 @@ class Node
 
 class Tree
 {
-    int heightOfTree(Node root){
-        if(root == null) return 0;
+    // Approach -1,TC -> O(N^2), SC -> O(N);
+//    int heightOfTree(Node root){
+//        if(root == null) return 0;
+//
+//        int lh = heightOfTree(root.left);
+//        int rh = heightOfTree(root.right);
+//
+//        return Math.max(lh, rh) + 1;
+//    }
+//    //Function to check whether a binary tree is balanced or not.
+//    boolean isBalanced(Node root)
+//    {
+//        if(root == null) return true;
+//
+//        boolean isLeftBalance = isBalanced(root.left);
+//        boolean isRightBalance = isBalanced(root.right);
+//
+//        int lh = heightOfTree(root.left);
+//        int rh = heightOfTree(root.right);
+//
+//        boolean isNodeBalance = Math.abs(lh - rh) <= 1 ? true : false;
+//
+//        if(isLeftBalance && isRightBalance && isNodeBalance){
+//            return true;
+//        }
+//        return false;
+//    }
 
-        int lh = heightOfTree(root.left);
-        int rh = heightOfTree(root.right);
+    //Approach -2, TC -> O(N), SC -> O(N)
+    class Pair{
 
-        return Math.max(lh, rh) + 1;
+        boolean isBalanced;
+        int height;
+
+        Pair(){
+            height = 0;
+            isBalanced = true;
+        }
+
+        Pair(int h, boolean bal){
+            this.height = h;
+            this.isBalanced = bal;
+        }
     }
+
+    Pair isBalanced2(Node root){
+
+        if(root == null) return new Pair();
+
+        Pair leftPair = isBalanced2(root.left);
+
+        Pair rightPair = isBalanced2(root.right);
+
+        int height = Math.max(leftPair.height , rightPair.height) + 1;
+
+        boolean isNodeBalanced = Math.abs(leftPair.height - rightPair.height) <= 1 ? true : false;
+
+        boolean isBalanced = false;
+        if(isNodeBalanced == true && leftPair.isBalanced == true && rightPair.isBalanced == true){
+            isBalanced = true;
+        }
+
+        return new Pair(height, isBalanced);
+    }
+
     //Function to check whether a binary tree is balanced or not.
     boolean isBalanced(Node root)
     {
-        if(root == null) return true;
-
-        boolean isLeftBalance = isBalanced(root.left);
-        boolean isRightBalance = isBalanced(root.right);
-
-        int lh = heightOfTree(root.left);
-        int rh = heightOfTree(root.right);
-
-        boolean isNodeBalance = Math.abs(lh - rh) <= 1 ? true : false;
-
-        if(isLeftBalance && isRightBalance && isNodeBalance){
-            return true;
-        }
-        return false;
+        Pair pair = isBalanced2(root);
+        return pair.isBalanced;
     }
 }
-
