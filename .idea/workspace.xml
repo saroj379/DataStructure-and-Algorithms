@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
+      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Aggresive Cows/Aggresive Cows.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Aggresive Cows/Aggresive Cows.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Aggresive Cows/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Aggresive Cows/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Balanced Binary Tree/Balanced Binary Tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Balanced Binary Tree/Balanced Binary Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Balanced Binary Tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Balanced Binary Tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/Diameter of a Binary Tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Diameter of a Binary Tree/Diameter of a Binary Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Diameter of a Binary Tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Diameter of a Binary Tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find First and Last Position of Element in Sorted Array/Find First and Last Position of Element in Sorted Array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Find First and Last Position of Element in Sorted Array/Find First and Last Position of Element in Sorted Array.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find First and Last Position of Element in Sorted Array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Find First and Last Position of Element in Sorted Array/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find Minimum in Rotated Sorted Array/Find Minimum in Rotated Sorted Array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Find Minimum in Rotated Sorted Array/Find Minimum in Rotated Sorted Array.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Find Minimum in Rotated Sorted Array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Find Minimum in Rotated Sorted Array/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Floor in a Sorted Array/Floor in a Sorted Array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Floor in a Sorted Array/Floor in a Sorted Array.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Floor in a Sorted Array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Floor in a Sorted Array/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Lowest Common Ancestor/Lowest Common Ancestor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Lowest Common Ancestor/Lowest Common Ancestor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Lowest Common Ancestor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Lowest Common Ancestor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Path to Given Node/Path to Given Node.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/M3_Medium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Path to Given Node/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Path to Given Node/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Path to Given Node/Path to Given Node.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Rotated Sorted Array Search/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Rotated Sorted Array Search/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Search A 2D Matrix/Search A 2D Matrix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Search A 2D Matrix/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Search A 2D Matrix/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Size_Sum_Maximum And Height Of A Binary Tree/Size_Sum_Maximum And Height Of A Binary Tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Search A 2D Matrix/Search A 2D Matrix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Size_Sum_Maximum And Height Of A Binary Tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Size_Sum_Maximum And Height Of A Binary Tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/TREE LEVEL ORDER TRAVERSAL/TREE LEVEL ORDER TRAVERSAL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Size_Sum_Maximum And Height Of A Binary Tree/Size_Sum_Maximum And Height Of A Binary Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/TREE LEVEL ORDER TRAVERSAL/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/TREE LEVEL ORDER TRAVERSAL/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Text Editor/Text Editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/TREE LEVEL ORDER TRAVERSAL/TREE LEVEL ORDER TRAVERSAL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Text Editor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Text Editor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Valid Parenthesis String/Valid Parenthesis String.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Text Editor/Text Editor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Valid Parenthesis String/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Valid Parenthesis String/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Zig Zag Traversal of Tree/Zig Zag Traversal of Tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Valid Parenthesis String/Valid Parenthesis String.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/Zig Zag Traversal of Tree/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Zig Zag Traversal of Tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/medium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Zig Zag Traversal of Tree/Zig Zag Traversal of Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accio/Module-3/MEDIUM/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Easy/Top view of Binary tree/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +125,7 @@
     </configuration>
     <configuration name="binaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binaryTree" />
-      <module name="medium" />
+      <module name="M3_Medium" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
