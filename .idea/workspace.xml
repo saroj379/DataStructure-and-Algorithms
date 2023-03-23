@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Decimal to Binary/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Single Number 3/Single Number 3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Single Number 3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Flipping bits/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
