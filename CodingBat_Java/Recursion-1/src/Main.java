@@ -107,7 +107,86 @@ class Solutions{
         }
     }
 
-    // 
+    // changeXY
+    public String changeXY(String str) {
+        if(str.length() == 0)  return "";
+        if(str.charAt(0)=='x'){
+            return 'y'+changeXY(str.substring(1));
+        }
+        return str.charAt(0)+changeXY(str.substring(1));
+    }
+
+    // changePi
+    public String changePi(String str) {
+        if(str.length() == 0) return "";
+        if(str.length() >= 2 && str.substring(0,2).equals("pi")){
+            return "3.14" + changePi(str.substring(2));
+        }
+        return str.charAt(0) + changePi(str.substring(1));
+    }
+
+    // noX
+    public String noX(String str) {
+        if(str.length() ==0) return "";
+        if(str.charAt(0) == 'x'){
+            return noX(str.substring(1));
+        }
+        return str.charAt(0) + noX(str.substring(1));
+    }
+
+    // array6
+    public boolean array6(int[] nums, int index) {
+        if(index == nums.length){
+            return false;
+        }
+
+        if(nums[index] == 6){
+            return true;
+        }
+        return array6(nums, index+1);
+    }
+
+    // array220
+    public boolean array220(int[] nums, int index) {
+        if(nums.length-1 <= index) return false;
+        if(nums[index] * 10 == nums[index+1]) return true;
+        return array220(nums, index+1);
+    }
+
+    // allStar
+    public String allStar(String str) {
+        if(str.equals("") || str.length() == 1) return str;
+        return str.charAt(0)+ "*" + allStar(str.substring(1));
+    }
+
+    // pairStar
+    public String pairStar(String str) {
+        if(str.length() <= 1) return str;
+        if(str.charAt(0) == str.charAt(1)){
+            return str.charAt(0) + "*" + pairStar(str.substring(1));
+        }
+        return str.charAt(0) + pairStar(str.substring(1));
+    }
+
+    // endX
+    public String endX(String str) {
+        if(str.length() == 0) return str;
+        if(str.charAt(0) == 'x'){
+            return endX(str.substring(1)) + str.charAt(0);
+        }
+        return str.charAt(0) + endX(str.substring(1));
+    }
+
+    // countPairs
+    public int countPairs(String str) {
+        if(str.length() <= 2) return 0;
+        if(str.charAt(0) == str.charAt(2)){
+            return 1 + countPairs(str.substring(1));
+        }
+        return countPairs(str.substring(1));
+    }
+
+
 
 }
 
