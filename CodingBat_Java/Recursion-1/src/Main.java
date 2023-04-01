@@ -311,7 +311,6 @@ class Solutions{
         }
         return func(str.substring(1, len), sub);
     }
-    
 }
 
 
