@@ -69,3 +69,28 @@ class LinkedList{
         }
     }
 }
+
+// Approacher-2
+class Solution{
+
+    int countNode(Node head, int count){
+        Node temp = head;
+        while(temp != null){
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
+
+    Node deleteMid(Node head){
+        if(head.next == null || head.next.next ==null) return null;
+        int mid = countNode(head, 0) / 2;
+        Node temp = head;
+        for(int i =0; i < mid-1; i++){
+            temp = temp.next;
+        }
+        temp.next = temp.next.next;
+
+        return head;
+    }
+}
