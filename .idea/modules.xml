@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Accio/Accio.iml" filepath="$PROJECT_DIR$/Accio/Accio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/Add 1 to a number represented as linked list/Add 1 to a number represented as linked list.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/Add 1 to a number represented as linked list/Add 1 to a number represented as linked list.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/Adis Array/Adis Array.iml" filepath="$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/Adis Array/Adis Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Medium/Aggresive Cows/Aggresive Cows.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Aggresive Cows/Aggresive Cows.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Hard/Allocate Minimum Number Of Pages/Allocate Minimum Number Of Pages.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Hard/Allocate Minimum Number Of Pages/Allocate Minimum Number Of Pages.iml" />
@@ -38,7 +39,9 @@
       <module fileurl="file://$PROJECT_DIR$/DSA__JAVA.iml" filepath="$PROJECT_DIR$/DSA__JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/Decimal To Binary.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Decimal To Binary/Decimal To Binary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Decimal to Binary/Decimal to Binary.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Decimal to Binary/Decimal to Binary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/Delete a Node/Delete a Node.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/Delete a Node/Delete a Node.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Hard/Delete a node from BST/Delete a node from BST.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Hard/Delete a node from BST/Delete a node from BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/Delete the Middle of the Linked List/Delete the Middle of the Linked List.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/Delete the Middle of the Linked List/Delete the Middle of the Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Easy/Design Stack Using Array/Design Stack Using Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Easy/Design Stack Using Array/Design Stack Using Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Detect cycle in a directed graph/Detect cycle in a directed graph.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Detect cycle in a directed graph/Detect cycle in a directed graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Detect cycle in an undirected graph/Detect cycle in an undirected graph.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Detect cycle in an undirected graph/Detect cycle in an undirected graph.iml" />

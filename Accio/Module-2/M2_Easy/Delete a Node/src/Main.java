@@ -77,3 +77,21 @@ class LinkedList{
         }
     }
 }
+
+// Approaches-2
+class Sol{
+    public static void remove_(LinkedList ll, int toRemove){
+
+        if(toRemove == 0){
+            ll.head = ll.head.next;
+            return;
+        }
+        Node temp = ll.head;
+        int c = 0;
+        while(c != toRemove-1 && temp != null){
+            temp = temp.next;
+            c++;
+        }
+        temp.next = temp.next.next;
+    }
+}
