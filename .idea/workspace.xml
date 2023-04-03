@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Basics/Identical Linked Lists/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/Easy_/Count nodes of linked list/Count nodes of linked list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/Basics/Count nodes of linked list/Count nodes of linked list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/Easy_/Count nodes of linked list/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/Basics/Count nodes of linked list/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/Easy_/Find the Sum of Last N nodes of the Linked List/Find the Sum of Last N nodes of the Linked List.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/Basics/Find the Sum of Last N nodes of the Linked List/Find the Sum of Last N nodes of the Linked List.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/Easy_/Find the Sum of Last N nodes of the Linked List/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/Basics/Find the Sum of Last N nodes of the Linked List/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/Basics/Insert in Middle of Linked List/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
