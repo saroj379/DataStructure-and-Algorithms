@@ -12,8 +12,7 @@ class Node
 }
 
 
-
-public class LinkedList_Element_From_Last
+class LinkedList_Element_From_Last
 {
     Node head;
     Node tail;
