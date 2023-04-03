@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Basics/Node at a given index in linked list/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/Basics/Delete node in Doubly Linked List/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +54,11 @@
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-2" />
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3" />
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-1" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Basics" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\CodingBat_Java" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-4_Intermediate_DSA" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-2" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-4_Intermediate_DSA\M4_Easy" />
     </key>
   </component>
   <component name="RunManager" selected="Application.binaryTree">
