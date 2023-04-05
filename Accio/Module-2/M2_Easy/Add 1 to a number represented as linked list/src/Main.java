@@ -46,7 +46,7 @@ class Solution{
         node curr = head;
         node prev = null;
         while(curr != null){
-            Node nxt = curr.next;
+            node nxt = curr.next;
             curr.next = prev;
             //Updating
             prev = curr;
