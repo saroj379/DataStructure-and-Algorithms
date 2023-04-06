@@ -49,7 +49,7 @@ class Solution{
         return -1;
     }
 
-    
+
     // Approach-2 (Prefix-Sum)
     int equalSum_(int [] A, int N) {
         int[]ans = new int[N];
