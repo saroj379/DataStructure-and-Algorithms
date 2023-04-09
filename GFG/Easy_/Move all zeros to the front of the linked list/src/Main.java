@@ -90,4 +90,29 @@ class GfG{
 
         return dummy0.next;
     }
+
+    // Approache -2
+    public Node moveZeroes(Node head){
+        // when i will get zero node i will add before head and make that node head
+        // Base case
+        if(head == null || head.next == null){
+            return head;
+        }
+
+        Node prev = head;
+        Node curr = head.next;
+
+        while(curr != null){
+            if(curr.data == 0 && prev != null){
+                prev.next = curr.next;
+                curr.next = head;
+                head = curr;
+                // to reach next of curr
+                curr = prev;
+            }
+            prev = curr;
+            curr = curr.next;
+        }
+        return head;
+    }
 }
