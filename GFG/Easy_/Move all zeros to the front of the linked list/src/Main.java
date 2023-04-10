@@ -92,7 +92,7 @@ class GfG{
     }
 
     // Approache -2
-    public Node moveZeroes(Node head){
+    public Node moveZeroes_(Node head){
         // when i will get zero node i will add before head and make that node head
         // Base case
         if(head == null || head.next == null){
