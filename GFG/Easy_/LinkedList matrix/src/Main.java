@@ -14,7 +14,7 @@ class Node
         down = null;
     }
 }
-public class Linked_list_2D_Matrix {
+class Linked_list_2D_Matrix {
 
     // node of linked list
 
