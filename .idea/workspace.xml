@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Easy_/Stacks_E/Stack using two queues/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/Easy_/Stacks_E/Implement two stacks in an array/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +53,11 @@
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\Stacks_E" />
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\Search on Matrix" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\LinkedList_E" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Basics\LinkedList_B" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Medium_\LinkedList_M" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.binaryTree">
