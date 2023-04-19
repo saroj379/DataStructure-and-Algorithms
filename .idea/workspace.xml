@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Easy_/Stacks_E/Sort a stack/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/Medium_/Stacks_M/The Celebrity Problem/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
