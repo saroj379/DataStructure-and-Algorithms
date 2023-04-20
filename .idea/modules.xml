@@ -19,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Array_Assignments/Array_Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Array_Assignments/Array_Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/BFS Implementation/BFS Implementation.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/BFS Implementation/BFS Implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BST_E/BST_E.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BST_E/BST_E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BT_E/BT_E.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BT_E/BT_E.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Medium/Balanced Binary Tree/Balanced Binary Tree.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Balanced Binary Tree/Balanced Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Basic operations in BST/Basic operations in BST.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Basic operations in BST/Basic operations in BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/Basics.iml" filepath="$PROJECT_DIR$/GFG/Basics/Basics.iml" />
@@ -29,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Easy/Binary Tree Postorder Traversal/Binary Tree Postorder Traversal.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Easy/Binary Tree Postorder Traversal/Binary Tree Postorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Easy/Binary Tree Preorder Traversal/Binary Tree Preorder Traversal.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Easy/Binary Tree Preorder Traversal/Binary Tree Preorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/Binary-Search_B/Binary-Search_B.iml" filepath="$PROJECT_DIR$/GFG/Basics/Binary-Search_B/Binary-Search_B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Binary-Search_E/Binary-Search_E.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Binary-Search_E/Binary-Search_E.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Bit Manipulation/Bit Manipulation.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Bit Manipulation/Bit Manipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Bit Manipulation/Bit Manipulation Assignments/Bit Manipulation Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Bit Manipulation/Bit Manipulation Assignments/Bit Manipulation Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Hard/Bottom view of Binary tree/Bottom view of Binary tree.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Hard/Bottom view of Binary tree/Bottom view of Binary tree.iml" />
@@ -37,7 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/CONTESTS/CONTESTS.iml" filepath="$PROJECT_DIR$/Accio/CONTESTS/CONTESTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/_Medium/Car Pooling/Car Pooling.iml" filepath="$PROJECT_DIR$/LeetCode/_Medium/Car Pooling/Car Pooling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Car pooling/Car pooling.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Car pooling/Car pooling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Check for Balanced Tree/Check for Balanced Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Check for Balanced Tree/Check for Balanced Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BT_E/Check for Balanced Tree/Check for Balanced Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BT_E/Check for Balanced Tree/Check for Balanced Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Check whether K-th bit is set or not/Check whether K-th bit is set or not.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Check whether K-th bit is set or not/Check whether K-th bit is set or not.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingBat_Java/CodingBat_Java.iml" filepath="$PROJECT_DIR$/CodingBat_Java/CodingBat_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Hard/Construct Binary Tree from Preorder and Inorder Traversal/Construct Binary Tree from Preorder and Inorder Traversal.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Hard/Construct Binary Tree from Preorder and Inorder Traversal/Construct Binary Tree from Preorder and Inorder Traversal.iml" />
@@ -83,7 +86,7 @@
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/Binary-Search_B/First and last occurrences of x/First and last occurrences of x.iml" filepath="$PROJECT_DIR$/GFG/Basics/Binary-Search_B/First and last occurrences of x/First and last occurrences of x.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Flipping bits/Flipping bits.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/Flipping bits/Flipping bits.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Medium/Floor in a Sorted Array/Floor in a Sorted Array.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Floor in a Sorted Array/Floor in a Sorted Array.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Floor in a Sorted Array GFG/Floor in a Sorted Array GFG.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Floor in a Sorted Array GFG/Floor in a Sorted Array GFG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Binary-Search_E/Floor in a Sorted Array GFG/Floor in a Sorted Array GFG.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Binary-Search_E/Floor in a Sorted Array GFG/Floor in a Sorted Array GFG.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_And_Methods.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_And_Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_Assignments/Functions_Assignments.iml" filepath="$PROJECT_DIR$/Apna_College/Alpha Batch 3.0/Functions_And_Methods/Functions_Assignments/Functions_Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/GCD Using Recursion/GCD Using Recursion.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/GCD Using Recursion/GCD Using Recursion.iml" />
@@ -93,7 +96,7 @@
       <module fileurl="file://$PROJECT_DIR$/Hacker-Rank/Hacker-Rank.iml" filepath="$PROJECT_DIR$/Hacker-Rank/Hacker-Rank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hacker-Rank/Hard-HR/Hard-HR.iml" filepath="$PROJECT_DIR$/Hacker-Rank/Hard-HR/Hard-HR.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Hard_/Hard_.iml" filepath="$PROJECT_DIR$/GFG/Hard_/Hard_.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Height of Binary Tree/Height of Binary Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Height of Binary Tree/Height of Binary Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BT_E/Height of Binary Tree/Height of Binary Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BT_E/Height of Binary Tree/Height of Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/LinkedList_B/Identical Linked Lists/Identical Linked Lists.iml" filepath="$PROJECT_DIR$/GFG/Basics/LinkedList_B/Identical Linked Lists/Identical Linked Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/Stacks_B/Immediate Smaller Element/Immediate Smaller Element.iml" filepath="$PROJECT_DIR$/GFG/Basics/Stacks_B/Immediate Smaller Element/Immediate Smaller Element.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/Stacks_B/Implement Stack using Linked List/Implement Stack using Linked List.iml" filepath="$PROJECT_DIR$/GFG/Basics/Stacks_B/Implement Stack using Linked List/Implement Stack using Linked List.iml" />
@@ -101,7 +104,7 @@
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Stacks_E/Implement two stacks in an array/Implement two stacks in an array.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Stacks_E/Implement two stacks in an array/Implement two stacks in an array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Insert a node in a BST/Insert a node in a BST.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Insert a node in a BST/Insert a node in a BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/LinkedList_B/Insert in Middle of Linked List/Insert in Middle of Linked List.iml" filepath="$PROJECT_DIR$/GFG/Basics/LinkedList_B/Insert in Middle of Linked List/Insert in Middle of Linked List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Insert in a Sorted List/Insert in a Sorted List.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Insert in a Sorted List/Insert in a Sorted List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Insert in a Sorted List/Insert in a Sorted List.iml" filepath="$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Insert in a Sorted List/Insert in a Sorted List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/Insert node in a doubly linked list/Insert node in a doubly linked list.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/Insert node in a doubly linked list/Insert node in a doubly linked list.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-2/M2_Easy/Insertion in circular linked list/Insertion in circular linked list.iml" filepath="$PROJECT_DIR$/Accio/Module-2/M2_Easy/Insertion in circular linked list/Insertion in circular linked list.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Intersection of Two Linked Lists/Intersection of Two Linked Lists.iml" filepath="$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Intersection of Two Linked Lists/Intersection of Two Linked Lists.iml" />
@@ -111,7 +114,7 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/LCA of Binary Search Tree/LCA of Binary Search Tree.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Easy/LCA of Binary Search Tree/LCA of Binary Search Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Largest Path problem/Largest Path problem.iml" filepath="$PROJECT_DIR$/Accio/Module-4_Intermediate_DSA/M4_Medium/Largest Path problem/Largest Path problem.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Level order traversal/Level order traversal.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Level order traversal/Level order traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BT_E/Level order traversal/Level order traversal.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BT_E/Level order traversal/Level order traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/LinkedList_B/Linked List Insertion/Linked List Insertion.iml" filepath="$PROJECT_DIR$/GFG/Basics/LinkedList_B/Linked List Insertion/Linked List Insertion.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/LinkedList_E/LinkedList matrix/LinkedList matrix.iml" filepath="$PROJECT_DIR$/GFG/Easy_/LinkedList_E/LinkedList matrix/LinkedList matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Basics/LinkedList_B/LinkedList_B.iml" filepath="$PROJECT_DIR$/GFG/Basics/LinkedList_B/LinkedList_B.iml" />
@@ -120,7 +123,7 @@
       <module fileurl="file://$PROJECT_DIR$/GFG/Medium_/LinkedList_M/LinkedList_M.iml" filepath="$PROJECT_DIR$/GFG/Medium_/LinkedList_M/LinkedList_M.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/Longest Continuous Increasing Subsequence/Longest Continuous Increasing Subsequence.iml" filepath="$PROJECT_DIR$/Accio/CONTESTS/MODULE-3/Longest Continuous Increasing Subsequence/Longest Continuous Increasing Subsequence.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Medium/Lowest Common Ancestor/Lowest Common Ancestor.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Lowest Common Ancestor/Lowest Common Ancestor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Lowest Common Ancestor in a BST/Lowest Common Ancestor in a BST.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Lowest Common Ancestor in a BST/Lowest Common Ancestor in a BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BST_E/Lowest Common Ancestor in a BST/Lowest Common Ancestor in a BST.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BST_E/Lowest Common Ancestor in a BST/Lowest Common Ancestor in a BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/M1_Easy/M1_Easy.iml" filepath="$PROJECT_DIR$/Accio/Module-1/M1_Easy/M1_Easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/M1_Hard/M1_Hard.iml" filepath="$PROJECT_DIR$/Accio/Module-1/M1_Hard/M1_Hard.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-1/M1_Medium/M1_Medium.iml" filepath="$PROJECT_DIR$/Accio/Module-1/M1_Medium/M1_Medium.iml" />
@@ -189,7 +192,7 @@
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Easy/Reverse Integer/Reverse Integer.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Easy/Reverse Integer/Reverse Integer.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Reverse a Doubly Linked List/Reverse a Doubly Linked List.iml" filepath="$PROJECT_DIR$/GFG/Easy_/LinkedList_E/Reverse a Doubly Linked List/Reverse a Doubly Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Stacks_E/Reverse a string using Stack/Reverse a string using Stack.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Stacks_E/Reverse a string using Stack/Reverse a string using Stack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/Right View of Binary Tree/Right View of Binary Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/Right View of Binary Tree/Right View of Binary Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GFG/Easy_/BT_E/Right View of Binary Tree/Right View of Binary Tree.iml" filepath="$PROJECT_DIR$/GFG/Easy_/BT_E/Right View of Binary Tree/Right View of Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Hard/Right view of Binary tree/Right view of Binary tree.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Hard/Right view of Binary tree/Right view of Binary tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/Medium_/LinkedList_M/Rotate a Linked List/Rotate a Linked List.iml" filepath="$PROJECT_DIR$/GFG/Medium_/LinkedList_M/Rotate a Linked List/Rotate a Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Accio/Module-3/M3_Medium/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" filepath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Rotated Sorted Array Search/Rotated Sorted Array Search.iml" />
