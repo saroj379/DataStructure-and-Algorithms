@@ -16,65 +16,58 @@ public class Main {
         int ans= ob.findElement(arr, N,target);
 
         System.out.println(ans);
-
     }
 }
 
-
 class Accio {
-
-    static int binarySearch(int arr[], int start, int end, int target){
-        int lo = start, hi = end;
+    // get the peak element
+    static int peekElementIndex(int arr[], int n){
+        int lo = 0;
+        int hi = n-1;
         while(lo <= hi){
-            int mid = (lo + hi) / 2;
-            if(arr[mid] == target) return mid;
-            else if(arr[mid] > target) hi = mid -1;
-            else lo = mid + 1;
+            int mid = (lo + hi) /2;
+            if(mid-1 < 0){
+                if(arr[mid] > arr[mid+1]) return mid;
+                else lo = mid +1;
+            }
+            else if(mid+1 >= n){
+                if(arr[mid] > arr[mid-1]) return mid;
+                else hi = mid -1;
+            }
+            else{
+                if(arr[mid] > arr[mid-1] && arr[mid] > arr[mid+1]) return mid;
+                else if(arr[mid] > arr[mid-1]){
+                    lo = mid+1;
+                }else hi = mid-1;
+            }
         }
         return -1;
     }
 
     static int findElement(int arr[], int n,int target)
     {
-        int lo = 0, hi = n-1;
-        int ans = -1;
+        int peek = peekElementIndex(arr, n);
+        if(arr[peek] == target) return peek; // if the element is the peak
+        int lo = 0;
+        int hi = peek-1;
+        // check for left sorted part isPresent or not
         while(lo <= hi){
             int mid = (lo + hi) / 2;
-            if(arr[mid] == target) {
-                return mid;
-            }
-            else if(arr[mid] > arr[mid + 1]){
-                int start = mid +1, end = n-1;
-                while(start <= end){
-                    int mid2 = (start + end) / 2;
-                    if(arr[mid2] == target) {
-                        return mid2;
-                    }
-                    else if(arr[mid2] > target) {
-                        end = mid2 - 1;
-                    }
-                    else {
-                        start = mid2 + 1;
-                    }
-                }
-            }
-            else{
-                int start = lo, end = mid -1;
-                while(start <= end){
-                    int mid2 = (start + end) / 2;
-                    if(arr[mid2] == target) {
-                        return mid2;
-                    }
-                    else if(arr[mid2] > target) {
-                        end = mid2 - 1;
-                    }
-                    else {
-                        start = mid2 + 1;
-                    }
-                }
-                return -1;
-            }
+            if(arr[mid] == target) return mid;
+            else if(arr[mid] > target) hi = mid -1;
+            else lo = mid +1;
         }
-        return ans;
+
+        lo = peek+1;
+        hi = n-1;
+        // if not present on left it will come to this loop to check for right part
+        while(lo <= hi){
+            int mid = (lo + hi) / 2;
+            if(arr[mid] == target) return mid;
+            else if(arr[mid] > target) lo = mid +1;
+            else hi = mid -1;
+        }
+        // if not present then return -1
+        return -1;
     }
 }
