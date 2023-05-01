@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Capacity To Ship Packages Within B Days/Capacity To Ship Packages Within B Days.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Capacity To Ship Packages Within B Days/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Minimum Limit of Balls in a Bag/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Minimum time to make Cakes/Minimum time to make Cakes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accio/Module-3/M3_Medium/Minimum time to make Cakes/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>

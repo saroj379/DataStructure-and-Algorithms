@@ -58,6 +58,40 @@ public class Main {
         return false;
     }
 
+
+    // Approach -2 TC (N)----------------->
+    static class Pair{
+        boolean isBalance;
+        int height;
+        Pair(){
+            this.isBalance = true;
+            this.height = 0;
+        }
+        Pair(boolean balanced, int h){
+            this.isBalance = balanced;
+            this.height = h;
+        }
+    }
+    public static Pair isBalanced1(Node root) {
+        if(root == null) return new Pair();
+
+        Pair leftPair = isBalanced1(root.left);
+        Pair rightPair = isBalanced1(root.right);
+
+        int height = Math.max(leftPair.height, rightPair.height) + 1;
+
+        boolean isNodeBalance = Math.abs(leftPair.height-rightPair.height) <= 1 ? true : false;
+        boolean isBalance = false;
+        if(isNodeBalance && leftPair.isBalance && rightPair.isBalance) isBalance = true;
+
+        return new Pair(isBalance, height);
+    }
+
+    public static boolean isBalanced2(Node root) {
+        return isBalanced1(root).isBalance;
+    }
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
