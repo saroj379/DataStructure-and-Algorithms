@@ -50,6 +50,12 @@ public class Main {
                     mcnt--;
                 }
 
+                /* this will also work coz we need unique char that's why
+                 if(freqS.get(ch) == 0){
+					mcnt--;
+				}
+                 */
+
                 if(freqS.get(ch) ==0){
                     freqS.remove(ch);
                 }
