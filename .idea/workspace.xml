@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9cb2ec-260c-455d-9369-e2d92b2969a2" name="Changes" comment="stack using Queue push O(1)">
-      <change afterPath="$PROJECT_DIR$/GFG/Medium_/Binary-Search_M/Capacity To Ship Packages Within D Days/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/Easy_/BT_E/Left View of Binary Tree/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +56,11 @@
       <recent name="C:\Users\princ\Projects\DSA__JAVA\Accio\Module-3\MEDIUM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\BT_E" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Medium_\Binary-Search_M" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\Stacks_E" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\Search on Matrix" />
       <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Easy_\LinkedList_E" />
-      <recent name="C:\Users\princ\Projects\DSA__JAVA\GFG\Basics\LinkedList_B" />
     </key>
   </component>
   <component name="RunManager" selected="Application.binaryTree">
